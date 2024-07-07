@@ -29,7 +29,7 @@ const Body = ()=>{
       <div className="body">
         <input type="text" value={SeachText} onChange={(e) =>{setSearchText(e.target.value)}}></input>
         <button className="search-button" onClick={()=>{
-          const searchFilter = resList.filter((x) => {
+          const searchFilter = ListOfRestaurant.filter((x) => {
             const f1= x.info.name.toLowerCase().includes(SeachText.toLowerCase());
            
            
