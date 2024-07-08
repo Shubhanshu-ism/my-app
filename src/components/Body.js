@@ -32,27 +32,27 @@ const Body = () => {
     <div className="body">
       <div className="fliters">
         {/* <div className="search"> */}
-          <input
-            type="text"
-            value={SeachText}
-            placeholder="Search a restaurant..."
-            className="searchBox"
-            onChange={(e) => {
-              setSearchText(e.target.value);
-            }}
-          />
-          <button
-            className="search-button"
-            onClick={() => {
-              const filteredRestaurant = ListOfRestaurant.filter((x) =>
-                x.info.name.toLowerCase().includes(SeachText.toLowerCase())
-              );
+        <input
+          type="text"
+          value={SeachText}
+          placeholder="Search a restaurant..."
+          className="searchBox"
+          onChange={(e) => {
+            setSearchText(e.target.value);
+          }}
+        />
+        <button
+          className="search-button"
+          onClick={() => {
+            const filteredRestaurant = ListOfRestaurant.filter((x) =>
+              x.info.name.toLowerCase().includes(SeachText.toLowerCase())
+            );
 
-              setFilteredRestaurant(filteredRestaurant);
-            }}
-          >
-            Search
-          </button>
+            setFilteredRestaurant(filteredRestaurant);
+          }}
+        >
+          Search
+        </button>
         {/* </div> */}
         <button
           className="top-rated-button"
@@ -69,7 +69,6 @@ const Body = () => {
         <button
           className="reset-button"
           onClick={() => {
-            
             setFilteredRestaurant(ListOfRestaurant);
           }}
         >

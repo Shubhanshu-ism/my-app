@@ -21,6 +21,4 @@ const Shimmer = () => {
   );
 };
 export default Shimmer;
-{
-  /* <button className="top-rated-button"> top Rated</button> */
-}
+
