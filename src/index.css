@@ -1,71 +1,62 @@
-.header{
-  display: flex ;
+.header {
+  display: flex;
   justify-content: space-between;
-  border: 1px  solid black
+  border: 1px solid black;
 }
-.logo{
+.logo {
   width: 120px;
 }
-.nav-items{
+.nav-items {
   padding: 0px 20px;
 }
-.nav-items > ul{
+.nav-items > ul {
   font-size: 20px;
   display: flex;
   list-style: none;
-  
 }
-.nav-items > ul> li{
+.nav-items > ul > li {
   padding: 10px;
   margin: 10px;
 }
-.top-rated-button{
+.top-rated-button {
   margin: 10px;
-  
 }
-.res-card{
-  
+.res-card {
   padding: 10px;
   width: 190px;
   margin: 10px;
-  
+
   /* border: 1px solid black; */
 }
-.res-card:hover{
+.res-card:hover {
   cursor: pointer;
-  border: 1px  solid black
+  border: 1px solid black;
 }
-.search{
-  padding: 10px;
-}
-.res-logo{
+
+.res-logo {
   width: 190px;
-  
 }
-.res-container{
+.res-container {
   display: flex;
   flex-wrap: wrap;
-  
 }
-.shimmer-button{
+
+.shimmer-button {
   display: flex;
   width: 50px;
   height: 10px;
 }
-.shimmer-container{
+.shimmer-container {
   display: flex;
   flex-wrap: wrap;
 }
-.shimmer-card{
-  padding: 10px;
+.shimmer-card {
   width: 200px;
-  height: 400px;
-  margin: 30px;
+  height: 410px;
+  margin: 10px;
   background-color: #f0f0f0;
-  
-
 }
-.login-button{
+.login-button {
   width: 100px;
   height: 50px;
   margin: 10px;
